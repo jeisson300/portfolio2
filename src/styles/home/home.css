@@ -1,0 +1,21 @@
+:root {
+    --system-color-page: hsla(0, 0%, 10%);
+    --system-title-page: rgba(255, 255, 255, 0.826)
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: var(--system-color-page);
+    height: 100vh;
+    width: 98%;
+}
+
+.titleHome {
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    margin-top: 10px;
+    color: var(--system-title-page)
+}

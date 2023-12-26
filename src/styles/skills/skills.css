@@ -1,0 +1,43 @@
+:root {
+    --system-color-page: hsla(0, 0%, 10%);
+    --system-title-page: rgba(255, 255, 255, 0.826)
+}
+
+
+.skill {
+    text-align: justify;
+    border-radius: 100rem;
+    height: 23rem;
+    width: 23rem;
+    border: solid;
+    background: url('../../assets/moon.svg')
+}
+
+.skill h2 {
+    padding-left: 5rem;
+    padding-top: 10rem;
+    z-index: 999;
+    font-family: 'Roboto', sans-serif;
+    color: var(--system-color-page)
+}
+
+#horiz {
+    display: flex;
+    width: 100%;
+    margin-top: -3rem;
+    justify-content: space-between;
+}
+
+#vert {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: auto;
+    height: 20rem;
+    margin-top: -12rem;
+}
+
+#vert img:last-child {
+    margin-top: auto;
+    /* La segunda imagen se ajusta hacia abajo */
+}
