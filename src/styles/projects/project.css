@@ -1,0 +1,11 @@
+:root {
+    --system-color-page: hsla(0, 0%, 10%);
+    --system-title-page: rgba(255, 255, 255, 0.826)
+}
+
+.title_project {
+    color: var(--system-title-page);
+    font-size: 3.5rem;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Roboto', sans-serif;
+}

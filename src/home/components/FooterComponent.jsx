@@ -1,5 +1,9 @@
 import React from 'react';
 
 export const FooterComponent = () => {
-  return <div>FooterComponent</div>;
+  return (
+    <div className="footer">
+      Jose Jeisson Ceballos Leal - Web Developer - Artist Digital
+    </div>
+  );
 };

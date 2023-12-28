@@ -1,0 +1,15 @@
+:root {
+    --system-color-footer: rgb(48, 47, 47);
+    --system-title-page: rgba(255, 255, 255, 0.826)
+}
+
+
+.footer {
+    background: var(--system-color-footer);
+    margin-top: 2rem;
+    width: 102%;
+    height: 3rem;
+    text-align: center;
+    padding-top: 10px;
+    color: White;
+}

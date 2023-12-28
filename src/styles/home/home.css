@@ -6,8 +6,11 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: var(--system-color-page);
-    height: 100vh;
+    /* background: var(--system-color-page); */
+    background-image: url("../../assets/fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;
     width: 98%;
 }
 
