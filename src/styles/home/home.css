@@ -22,3 +22,34 @@ body {
     margin-top: 10px;
     color: var(--system-title-page)
 }
+
+@media (max-width: 768px) {
+
+    main .row.mx-5 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .col-5.mx-5 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        width: 135%;
+    }
+
+    main .row.mx-5 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .col-5.mx-5 {
+        width: 100%;
+    }
+}

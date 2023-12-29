@@ -9,3 +9,19 @@
     font-family: 'DM Serif Display', serif;
     font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 768px) {
+    .title_project {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .col-3 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .card a {
+        margin-left: 8rem;
+    }
+}

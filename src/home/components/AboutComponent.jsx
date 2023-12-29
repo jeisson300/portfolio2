@@ -3,7 +3,7 @@ import linkdin from '../../assets/linkdin.svg';
 
 export const AboutComponent = () => {
   return (
-    <div className="about mx-3 px-3 py-3">
+    <div className="about mx-3  px-3 py-3">
       <h3>Sobre mi</h3>
       <p>
         <b>Desarrollador web</b> con mas de 2 años de experiencia con
