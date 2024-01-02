@@ -8,8 +8,12 @@
     background: var(--system-color-footer);
     margin-top: 2rem;
     width: 102%;
-    height: 3rem;
+    height: 6rem;
     text-align: center;
     padding-top: 10px;
     color: White;
+}
+
+.footer_icon {
+    display: block;
 }
